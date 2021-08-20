@@ -1,0 +1,15 @@
+<apex:page >
+    <apex:pageBlock title="Science Field"> 
+       <apex:pageBlockSection title="First Section">
+           <apex:pageBlockSectionItem > Engineering</apex:pageBlockSectionItem>
+           <apex:pageBlockSectionItem > Master Technolgy</apex:pageBlockSectionItem>
+           <apex:pageBlockSectionItem > doctor engineering</apex:pageBlockSectionItem>
+        </apex:pageBlockSection>  
+        <apex:pageBlockSection title=" Art Field">
+           <apex:pageBlockSectionItem > BA</apex:pageBlockSectionItem>
+           <apex:pageBlockSectionItem > MA</apex:pageBlockSectionItem>
+           <apex:pageBlockSectionItem > doctor Art</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem > artist</apex:pageBlockSectionItem>
+        </apex:pageBlockSection> 
+    </apex:pageBlock>
+</apex:page>

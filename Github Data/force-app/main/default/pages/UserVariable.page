@@ -1,0 +1,13 @@
+<apex:page standardController="Account" sidebar="true" showHeader="true">
+   <apex:pageBlock >
+       <apex:pageBlockSection title="Welcome to first Program">
+       
+    
+    <p>
+        Hello {!$User.FirstName}<br/>
+        Users account name: {!account.name}
+    </p>
+       </apex:pageBlockSection>
+    </apex:pageBlock>
+        
+</apex:page>

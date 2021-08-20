@@ -1,0 +1,5 @@
+<apex:page showHeader="true" controller="API_SpoonacularRecipe">
+ <apex:form >
+     <apex:commandLink value="Go1" action="{!getRandomRecipe}" reRender="dynamic"/>
+ </apex:form>
+</apex:page>

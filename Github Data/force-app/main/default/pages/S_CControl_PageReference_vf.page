@@ -1,0 +1,10 @@
+<apex:page controller="S_CControl_PageReference">
+    <apex:form >
+        <h1>
+            PLease clic following link to go on google
+        </h1><br/><br/>
+        <apex:commandButton value="ClickMe" action="{!savemethod}" />
+    
+    </apex:form>
+    
+</apex:page>

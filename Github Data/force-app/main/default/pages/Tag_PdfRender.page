@@ -1,0 +1,8 @@
+<apex:page standardController="Account" renderAs="pdf">
+    <apex:panelGrid columns="2" width="50%">
+        <apex:outputText value="{!account.name}"/>
+            <apex:outputText value="{!Now()}"/>
+    
+    </apex:panelGrid>
+    
+</apex:page>

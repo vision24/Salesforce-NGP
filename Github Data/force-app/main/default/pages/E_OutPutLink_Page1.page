@@ -1,0 +1,4 @@
+<apex:page >
+    <apex:outputText value="{!$CurrentPage.Parameters.Msg}" />
+    <apex:outputText value="{!$CurrentPage.Parameters.NewMsg}" />
+</apex:page>

@@ -1,0 +1,7 @@
+<apex:page standardController="Account" extensions="E_Ext1,E_Ext2" >
+
+<apex:outputText value="{!one}" />
+<apex:outputText value="{!one}" />
+<apex:outputText value="{!two}" />
+
+</apex:page>

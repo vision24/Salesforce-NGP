@@ -1,0 +1,12 @@
+<apex:page controller="S_CControl_BasicGetSet" >
+    <apex:form >
+        <apex:outputPanel id="StudentDetails"> 
+            {!student} <br/>
+        
+        </apex:outputPanel>
+    
+    <apex:commandButton value="Fetch Student" action="{!fetchStudent}" />
+    </apex:form>
+    
+    
+</apex:page>

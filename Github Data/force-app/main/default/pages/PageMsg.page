@@ -1,0 +1,6 @@
+<apex:page >
+    <apex:pageBlock >
+      <apex:pageMessage summary="Fill data carefully" severity="error"  strength="1"> </apex:pageMessage>
+        //severity=info/error/warming/confirm.....strenght=0,1,2,3(it define size of symbol)
+    </apex:pageBlock>
+</apex:page>

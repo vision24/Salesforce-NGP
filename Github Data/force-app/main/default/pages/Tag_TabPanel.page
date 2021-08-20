@@ -1,0 +1,7 @@
+<apex:page id="thePage" >
+    <apex:tabPanel switchType="client"> //server also
+      <apex:tab label="Home" name="Home" id="h1"> Keeping all features in oeach focused on a specific task or workflow. </apex:tab>
+      <apex:tab label="contact us" id="c1"> New Nagpur India </apex:tab>
+    
+    </apex:tabPanel>
+</apex:page>

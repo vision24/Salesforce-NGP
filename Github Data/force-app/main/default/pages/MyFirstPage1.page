@@ -1,0 +1,12 @@
+<apex:page >
+    <h1>
+        Hello Wlcome to my city
+    </h1>
+    <p>
+        <b>I am Welcoming </b> <br/>
+        {!$User.FirstName}
+        {!$User.LastName}<br/>
+        {!$User.Email}<br/>
+         {!$User.Address}
+    </p>
+</apex:page>

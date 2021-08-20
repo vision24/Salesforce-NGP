@@ -1,0 +1,5 @@
+<apex:page standardController="Account" >
+   <p>
+        You are viewing the {!account.name} account 
+    </p>
+</apex:page>

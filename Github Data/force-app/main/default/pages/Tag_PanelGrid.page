@@ -1,0 +1,15 @@
+<apex:page >
+    <apex:panelGrid columns="3" id="grid" bgcolor="red" border="4" cellspacing="12" cellpadding="10" title="New Grid line" width="10">
+        <apex:outputText value="First" id="tf1"></apex:outputText>
+        <apex:outputText value="Second" id="tf2"></apex:outputText>
+        <apex:outputText value="third" id="tf3"></apex:outputText>
+        <apex:outputText value="fourth" id="tf4"></apex:outputText>
+        <apex:outputText value="fifth" id="tf5"></apex:outputText>
+         
+        <apex:panelGroup >
+        <apex:outputText value="sixth" id="tf6"></apex:outputText>
+        <apex:outputText value="seventh" id="tf7"></apex:outputText>
+        </apex:panelGroup>
+        
+    </apex:panelGrid>
+</apex:page>

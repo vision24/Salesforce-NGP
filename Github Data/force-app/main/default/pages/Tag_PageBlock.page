@@ -1,0 +1,15 @@
+<apex:page standardController="Account" > 
+    <p>
+        
+       This is your {!account.name}
+    </p>
+  <apex:pageBlock >
+      <apex:pageBlockSection >
+          
+          <apex:outputField label="Name" value="{!account.name}"/><br/>
+          <apex:outputField label="AcountOwner" value="{!account.owner.name}" /><br/>
+          
+      </apex:pageBlockSection>
+      
+    </apex:pageBlock>
+</apex:page>

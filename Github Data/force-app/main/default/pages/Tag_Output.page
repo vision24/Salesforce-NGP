@@ -1,0 +1,12 @@
+<apex:page >
+    <apex:form >
+        <apex:outputLabel value="Enter Name:" for="name"></apex:outputLabel>
+         <apex:inputText id="name" />
+         <apex:outputLabel value="Enter Email:" for="email"></apex:outputLabel>
+        <apex:inputText id="email" />
+        <apex:commandButton value="save"/><br/>
+        <apex:outputLink value="https://www.google.com/"> Go to Google Link Here</apex:outputLink>
+        
+                                        
+    </apex:form>
+</apex:page>

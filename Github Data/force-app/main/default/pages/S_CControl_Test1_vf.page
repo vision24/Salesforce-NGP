@@ -1,0 +1,10 @@
+<apex:page controller="S_CControl_Test1" tabStyle="Account" >
+    <apex:form >
+        <apex:pageBlock title="Congratulations {!$User.FirstName}">
+        
+            You Belongs to Account Name:<apex:inputField value="{!Account.name}" />
+            <apex:commandButton action="{!save}" value="SaveMe" />
+        
+        </apex:pageBlock>   
+    </apex:form>    
+</apex:page>
