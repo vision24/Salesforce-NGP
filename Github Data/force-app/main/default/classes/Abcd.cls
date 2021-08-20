@@ -8,6 +8,7 @@ public with sharing class Abcd {
         System.debug('i m Changing in vs cod');
         System.debug('This is last from github');
         System.debug('This is last from Vs code');
+        System.debug('Now end to check local machine')'
     }
 
 }
